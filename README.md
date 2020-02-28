@@ -23,3 +23,5 @@ The folder "Network Simulations" contains codes for the widely used network simu
   1. Network Simulator ns-2 code to visualize the star topology with 5 nodes n0 to n4. The nodes n0 and n1 are source of the traffic, n2 and n3 are the sinks.
   2. Network Simulator ns-2 code to visualize the ring topology with 4 nodes n0 to n3 arranged in a square. The nodes n0 and n2 are the source, n1 and n3 are the sinks. The code also demonstartes link failure.
   3. Network Simulator ns-2 code to visualize a LAN network as shown in the picture below. All Server nodes send traffic to all Client nodes at the same time.
+  
+![Cat](https://github.com/rajtulluri/Socket-Programming/blob/master/Network%20Simulations/LAN_Visualisation.png)
