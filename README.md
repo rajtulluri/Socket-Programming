@@ -8,3 +8,7 @@ The folder "Sample TCP Codes" contains the following codes :-
 The folder "File Handling Codes" contains the following codes :-
   1. TCP Server-Client program which Sorts the file based on ASCII, Searches for string in file and replaces string in the file. The Client sends the option along with the string if needed and server performs the option.
   2. The above code in UDP protocol style
+  
+The folder "Full & Half Duplex" contains the following codes :-
+  1. TCP Server-Client program demonstrating full duplex chat.
+  2. TCP Server-Client program demonstrating half duplex communication. The Client sends a string and the Server prints all permutations of the string.
