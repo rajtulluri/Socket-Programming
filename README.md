@@ -18,3 +18,8 @@ The folder "DNS Implementation" contains codes to implement DNS protocol. The Cl
 The folder "Multiple Client Connections" contains the following codes :-
   1. TCP Server-Client program to demonstrate a Concurrent Server. Everytime a Client connects to the Server, Server forks and assigns a child to the Client. In this program the 2 Clients send individual strings which the server combines and prints the result. At any time Server supports just 2 Clients.
   2. TCP Server_Client program to demonstrates an Iterative Server. The Clients are allowed to connect one after the other.
+  
+The folder "Network Simulations" contains codes for the widely used network simulator ns-2. The software helps visualize the network topology and traffic flows between nodes of the network. 
+  1. Network Simulator ns-2 code to visualize the star topology with 5 nodes n0 to n4. The nodes n0 and n1 are source of the traffic, n2 and n3 are the sinks.
+  2. Network Simulator ns-2 code to visualize the ring topology with 4 nodes n0 to n3 arranged in a square. The nodes n0 and n2 are the source, n1 and n3 are the sinks. The code also demonstartes link failure.
+  3. Network Simulator ns-2 code to visualize a LAN network as shown in the picture below. All Server nodes send traffic to all Client nodes at the same time.
