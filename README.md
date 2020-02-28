@@ -15,3 +15,6 @@ The folder "Full & Half Duplex" contains the following codes :-
 
 The folder "DNS Implementation" contains codes to implement DNS protocol. The Client sends the domain name to the Server. Server searches in the database (sample given) and retrieAves the A record, the corresponding IP address is sent to the Client.
 
+The folder "Multiple Client Connections" contains the following codes :-
+  1. TCP Server-Client program to demonstrate a Concurrent Server. Everytime a Client connects to the Server, Server forks and assigns a child to the Client. In this program the 2 Clients send individual strings which the server combines and prints the result. At any time Server supports just 2 Clients.
+  2. TCP Server_Client program to demonstrates an Iterative Server. The Clients are allowed to connect one after the other.
