@@ -12,3 +12,6 @@ The folder "File Handling Codes" contains the following codes :-
 The folder "Full & Half Duplex" contains the following codes :-
   1. TCP Server-Client program demonstrating full duplex chat.
   2. TCP Server-Client program demonstrating half duplex communication. The Client sends a string and the Server prints all permutations of the string.
+
+The folder "DNS Implementation" contains codes to implement DNS protocol. The Client sends the domain name to the Server. Server searches in the database (sample given) and retrives the A record, the corresponding IP address is sent to the Client.
+
